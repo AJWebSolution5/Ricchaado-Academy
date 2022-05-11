@@ -1,0 +1,125 @@
+.banner {
+    padding-bottom: 7vh;
+    height: 40vh;
+    background: url("../IMG/Depositphotos_22772802_XL.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: .6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.about-section, .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    background: white;
+}
+.about-section .container, .contact-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+.about-content, .contact-content {
+    width: 45%;
+}
+.about-content h1, .contact-content h1 {
+    padding-bottom: 50px;
+    color: rgb(107, 122, 170);
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.about-content p, .contact-content p{
+    line-height: 40px;
+    font-size: 18px;
+    margin: 0px auto;
+}
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.about-img img{
+    width: 80%;
+}
+.mission {
+    padding: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mission .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.mission h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.mission p {
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+}
+.about-t {
+    width: 40%;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    
+    .banner {
+        height: 30vh;
+        
+    }
+
+    .about-section .container, .contact-section .container{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .about-content, .contact-content {
+        width: 80%;
+    }
+    .about-section h1 {
+        font-size: 28px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .about-img {
+    width: 100%;
+    margin-top: 80px;
+    }
+    .about-img img{
+        width: 80%;
+    }
+    .about-t {
+        width: 80%;
+
+    }
+}
+

@@ -1,0 +1,63 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 4rem;
+    text-align: left;
+}
+
+.input-group label{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(107, 122, 170);
+}
+.input-group input {
+    padding: .8em 8em;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    background: none;
+    border: 1px solid black;
+    outline: none;
+    width: 100%;
+    color: white;
+    transition: all 0.5s ease;
+}
+.input-group:last-child input{
+    padding: 3em 4em;
+}
+
+.input-group input:focus {
+    border-color: rgb(107, 122, 170);
+  }
+.form button {
+    font-size: 20px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    z-index: 1000;
+    cursor: pointer;
+    background: #FF6B63;
+    color: white;
+    transition: ease-in .2s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.testimonials {
+    margin-bottom: 200px ;
+}
+@media only screen and (max-width: 900px) {
+    
+    .testimonials {
+        padding-top: 80px;
+        text-align: center;
+    }
+    .contact-content h1 {
+        font-size: 28px;
+    }
+    .contact-content p {
+        font-size: 16px;
+    }
+
+}
+
