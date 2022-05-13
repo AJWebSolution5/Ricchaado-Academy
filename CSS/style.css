@@ -1023,7 +1023,7 @@ footer.container {
     
 
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
  
     .logo {
         font-size: 16px;
@@ -1045,13 +1045,14 @@ footer.container {
     }
     .intro {
         padding: 50px 0px;
+        min-height: 40vh;
     }
     .intro .container{
         padding: 0px;
         
     }
     .intro-text, .top-text, .bottom-text   {
-        font-size: 16px;
+        font-size: 10px;
     }
     .card {
         width: 100%;
