@@ -35,7 +35,7 @@ const navSlide = () => {
 navSlide();
 
 //Scroll Reveal
-window.sr = ScrollReveal();
+/* window.sr = ScrollReveal();
 var x = window.matchMedia('(max-width: 450px');
 sr.reveal('.animate-left', {
     origin: 'left',
@@ -63,4 +63,4 @@ sr.reveal('.animate-bottom', {
     duration: 1000,
     distance: '25rem',
     delay: 600
-});
+}); */
