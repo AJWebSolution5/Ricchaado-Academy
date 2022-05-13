@@ -178,6 +178,16 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 40px;
-    
+        padding: 50px 30px;
     }
+    .grid a {
+        display: none;
+    }
+    .grid .main-btn{
+        display: inherit;
+    }
+   .footer-links li {
+       margin-left: 30px;
+       
+   }
 }
