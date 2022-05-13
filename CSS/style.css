@@ -1066,9 +1066,12 @@ footer.container {
     .footer-links ul li a{
         font-size: 10px;
     }
+    .final-cta {
+        padding-top: 100px;
+    }
     .cta h2 {
         font-size: 24px;
-        padding-top: 50px;
+    
     }
     .mobile-cta-img {
         top: -70px;
