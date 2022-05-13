@@ -1043,7 +1043,7 @@ footer.container {
         font-size: 20px;
     }
     .intro {
-        min-height: 50vh;
+        padding: 50px 0px;
     }
     .intro .container{
         padding: 0px;
@@ -1067,7 +1067,7 @@ footer.container {
     .cta h2 {
         font-size: 24px;
     }
-    .final-cta {
-        min-height: 50vh;
+    .final-cta, footer {
+        padding: 50px 0px;
     }
 }
