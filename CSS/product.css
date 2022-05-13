@@ -141,3 +141,43 @@ footer {
     color: #fff;
   
 }
+
+@media only screen and (max-width: 400px) {
+
+    .products .container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .products .container .product-info{
+        flex-direction: column;
+    }
+    .product-description {
+        margin-top: 80px;
+        padding: 0px 30px;
+        width: 100%;
+    }
+    .product-description p {
+        margin-bottom: 50px;
+    }
+    .new-product img {
+        margin-right: 0;
+    }
+    .description p {
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .new-product {
+        width: 100%;
+    }
+    .product-description .btn .main-btn{
+        padding: .8em;
+        font-size: 18px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px;
+    
+    }
+}
