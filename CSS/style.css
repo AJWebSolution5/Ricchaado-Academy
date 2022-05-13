@@ -818,7 +818,7 @@ footer.container {
     }
     .mobile-chibi {
         position: absolute;
-        right: 0;
+        right: 20px;
         top: 0;
         transform: translate(70px, -200px);
         display: inherit;
@@ -1071,6 +1071,7 @@ footer.container {
     }
     .mobile-cta-img {
         top: -70px;
+        
     }
     .final-cta, footer {
         padding: 50px 0px;
