@@ -784,6 +784,7 @@ footer.container {
     .mountain {
         right: 0px;
     }
+    
 }
 @media only screen and (min-width: 1200px) {
     .mountain {
@@ -794,6 +795,14 @@ footer.container {
     .mountain {
         right: 200px;
     }
+}
+@media only screen and (min-width: 900px) {
+    .green-blob {
+        padding-right: 100px;
+    }
+    
+    
+    
 }
 
 @media only screen and (max-width: 900px) {
@@ -895,9 +904,13 @@ footer.container {
     .bottom-img {
         display: none;
     }
+    .mango {
+        height: 150px;
+        bottom: -25px;
+    }
     .mobile-chibi {
         position: absolute;
-        right: 20px;
+        right: -20px;
         top: 0;
         transform: translate(70px, -200px);
         display: inherit;
@@ -947,6 +960,12 @@ footer.container {
         height: inherit;
         padding: 80px 0px;
     }
+    .sakura-1, .sakura-2 {
+        height: 100px;
+    }
+    .sakura-2 {
+        right: -20px;
+    }
 
     .value h1, .pricing h1 {
         font-size: 24px;
@@ -994,7 +1013,7 @@ footer.container {
         align-items: center;
     }
     .card {
-        width: 80%;
+        width: 70%;
         margin-bottom: 80px;
         
     }
@@ -1053,7 +1072,7 @@ footer.container {
        
     }
     .testimonial {
-        width: 80%;
+        width: 50%;
         margin-bottom: 80px;
     }
     .cta {
@@ -1110,6 +1129,22 @@ footer.container {
     
 
 }
+@media only screen and (max-width: 520px) {
+    .mobile-chibi {
+        right: 20px;
+    }
+    .testimonial {
+        width: 70%;
+    
+    }
+}
+@media only screen and (max-width: 720px) {
+    .mobile-chibi {
+        right: 0px;
+    }
+}
+
+
 @media only screen and (max-width: 450px) {
  
     .logo {
@@ -1145,12 +1180,7 @@ footer.container {
         height: 100px;
         bottom: -20px;
     }
-    .sakura-1, .sakura-2 {
-        height: 100px;
-    }
-    .sakura-2 {
-        right: -20px;
-    }
+  
     .card {
         width: 100%;
     }
