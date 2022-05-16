@@ -1,7 +1,7 @@
 .banner {
     padding-bottom: 7vh;
     height: 40vh;
-    background: url("../IMG/Depositphotos_22772802_XL.jpg");
+    background: url("../IMG/Depositphotos_23226180_XL\ 1.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@
 }
 .about-content h1, .contact-content h1 {
     padding-bottom: 50px;
-    color: rgb(107, 122, 170);
+    color: #B52323;
     font-weight: bold;
     font-size: 36px;
     text-transform: uppercase;
@@ -73,13 +73,13 @@
 .mission h1 {
     margin-bottom: 50px;
     font-size: 30px;
-    color: white;
+    color: #B52323;
     text-transform: uppercase;
 }
 .mission p {
     line-height: 40px;
     font-size: 18px;
-    color: white;
+    color: #111;
     opacity: 0.8;
     text-align: center;
 }
@@ -112,7 +112,13 @@
     }
     .about-img {
     width: 100%;
-    margin-top: 80px;
+   
+    }
+    .ricchaado-img {
+        margin-top: 80px;
+    }
+    .bruno-img {
+        margin-bottom: 80px;
     }
     .about-img img{
         width: 80%;
@@ -120,6 +126,28 @@
     .about-t {
         width: 80%;
 
+    }
+    .bruno-title {
+        margin-top: 80px;
+    }
+
+   
+}
+
+@media only screen and (min-width: 370px) {
+
+    .about-section .container{
+        position: relative;
+    }
+    #japan-fan {
+        transform: rotate(90deg);
+        top: 130px;
+        right: -150px;
+        left: auto;
+    }
+    #sakura {
+        bottom: -30px;
+        left: -20px;
     }
 }
 

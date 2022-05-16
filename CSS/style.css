@@ -95,7 +95,7 @@ nav ul a {
     left: 0;
     background-color: black;
     z-index: 10;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 h1.tagline {
@@ -120,7 +120,7 @@ h1.tagline {
     border-radius: 5px;
     z-index: 1000;
     cursor: pointer;
-    background: #B52323;
+    background: #FF6B63;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -283,6 +283,20 @@ h1.tagline {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+.sakura-1, .sakura-2 {
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+}
+.sakura-1 {
+    bottom: 0;
+    left: 0;
+}
+.sakura-2 {
+    top: 0;
+    right: 0;
 }
 .value .container {
     width: 80%;
@@ -337,6 +351,7 @@ h1.tagline {
     margin-bottom: 30px;
     padding: 40px;
     border-radius: 4%;
+    border: 2px solid #FDAD83;
 }
 .card-4, .card-5 {
     margin-top: 20px;
@@ -405,7 +420,6 @@ h1.tagline {
     width: 1000px;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.8));
     border-radius: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.6);
     z-index: 100;
     backdrop-filter: blur(18px);
     opacity: 100%;
@@ -413,11 +427,30 @@ h1.tagline {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.screen::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FDAD83;
+    border-radius: 30px;
+    z-index: -5;
+    
+}
+.screen-sak-1 {
+    bottom: -80px;
+}
+.screen-sak-2 {
+    top: -80px;
 }
 
 .video-container {
-    height: 70%;
-    width: 78%;
+    height: 80%;
+    width: 88%;
     background-color: #222;
     border-radius: 20px;
     display: flex;
@@ -508,6 +541,7 @@ h1.tagline {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .testimonial {
     width: 35%;
@@ -517,7 +551,9 @@ h1.tagline {
     padding: 120px 60px;
     border-radius: 4%;
     position: relative;
+    border: 2px solid #FDAD83;
 }
+
 .icon {
     position: absolute;
     top: 40%;
@@ -554,9 +590,22 @@ h1.tagline {
     width: 80%;
     margin: 0px auto;
 }
+.mountain {
+    position: absolute;
+    z-index: -100;
+    height: 800px;
+    bottom: -140px;
+    right: -100px;
+}
 .cta {
     width: 80%;
     margin: 0px auto;
+}
+.japan-fan {
+    position: absolute;
+    z-index: -10;
+    top: 50px;
+    left: -50px;
 }
 .cta h2 {
     margin-bottom: 30px;
@@ -637,12 +686,14 @@ footer.container {
     width: 50%;
     margin: 0 auto;
     list-style: none;
+    
 }
 
 .footer-links ul li a{
     text-decoration: none;
     color: #111;
     font-size: 14px;
+    
 }
 .tagline {
     color: #111;
@@ -699,10 +750,11 @@ footer.container {
     .cta-img {
         display: inherit;
         width: 60%;
-        margin-bottom: -50px;
+        margin-bottom: -120px;
     }
     .cta-img img{
         width: 550px;
+        margin-left: 80px;
     }
     
     .mobile-cta-img {
@@ -728,6 +780,21 @@ footer.container {
     
 }
 
+@media only screen and (min-width: 1040px) {
+    .mountain {
+        right: 0px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .mountain {
+        right: 100px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .mountain {
+        right: 200px;
+    }
+}
 
 @media only screen and (max-width: 900px) {
 
@@ -996,6 +1063,14 @@ footer.container {
     .cta h2{
         font-size: 28px;
     }
+    .mountain {
+        display: none;
+    }
+    .japan-fan {
+        left: auto;
+        right: -150px;
+        transform: rotate(90deg);
+    }
     
     footer {
         height: 18vh;
@@ -1066,6 +1141,16 @@ footer.container {
     .intro-text, .top-text, .bottom-text   {
         font-size: 14px;
     }
+    .mango {
+        height: 100px;
+        bottom: -20px;
+    }
+    .sakura-1, .sakura-2 {
+        height: 100px;
+    }
+    .sakura-2 {
+        right: -20px;
+    }
     .card {
         width: 100%;
     }
@@ -1085,6 +1170,7 @@ footer.container {
         font-size: 24px;
     
     }
+
     .mobile-cta-img {
         top: -70px;
         
