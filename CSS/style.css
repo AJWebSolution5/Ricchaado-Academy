@@ -352,6 +352,7 @@ h1.tagline {
     padding: 40px;
     border-radius: 4%;
     border: 2px solid #FDAD83;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .card-4, .card-5 {
     margin-top: 20px;
@@ -427,7 +428,7 @@ h1.tagline {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .screen::after {
     content: "";
@@ -552,6 +553,7 @@ h1.tagline {
     border-radius: 4%;
     position: relative;
     border: 2px solid #FDAD83;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
@@ -593,7 +595,7 @@ h1.tagline {
 .mountain {
     position: absolute;
     z-index: -100;
-    height: 800px;
+    height: 700px;
     bottom: -140px;
     right: -100px;
 }
@@ -1195,6 +1197,7 @@ footer.container {
     }
     .final-cta {
         padding-top: 100px;
+        height: inherit;
     }
     .cta h2 {
         font-size: 24px;
@@ -1206,7 +1209,7 @@ footer.container {
         
     }
     .final-cta, footer {
-        padding: 50px 0px 0px 0px;
+        padding: 50px 0px 0px 50px;
     }
     .footer-links li {
         margin-left: 30px;
