@@ -662,6 +662,7 @@ h1.tagline {
 
 }
 footer {
+    min-height: 15vh;
     background-color: white;
 }
 
