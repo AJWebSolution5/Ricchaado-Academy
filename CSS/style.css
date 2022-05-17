@@ -1209,8 +1209,20 @@ footer.container {
         
     }
     .final-cta, footer {
-        padding: 50px 0px 0px 50px;
+        padding: 50px 0px 50px 0px;
     }
+    .social {
+        text-align: center;
+        padding: 20px 0px 10px 0px;
+        
+     }
+     
+     .social img {
+         width: 40px;
+     }
+     footer {
+        margin-top: 50px;
+     }
     .footer-links li {
         margin-left: 30px;
         
