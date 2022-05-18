@@ -1082,7 +1082,7 @@ footer.container {
     }
     .cta {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .cta h2{
         font-size: 28px;
@@ -1211,6 +1211,9 @@ footer.container {
         top: -70px;
         
     }
+    .japan-fan {
+        display: none;
+    }
     .final-cta, footer {
         padding: 50px 0px 50px 0px;
     }
@@ -1230,4 +1233,7 @@ footer.container {
         margin-left: 30px;
         
     }
+}
+@media only screen and (min-width: 300px) {
+   
 }
