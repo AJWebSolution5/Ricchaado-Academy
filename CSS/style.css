@@ -915,7 +915,7 @@ footer.container {
         right: 0px;
         top: 0;
         transform: translate(70px, -200px);
-        display: inherit;
+        display: none;
     }
     .bottom-text {
         padding-left: 0px;
