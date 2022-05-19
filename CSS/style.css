@@ -11,6 +11,10 @@ body {
     background: #FEF2C2;
 
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .wrapper {
     overflow-x: hidden;
 }
@@ -664,7 +668,7 @@ h1.tagline {
     }
 
 }
-footer {
+.footer {
     min-height: 15vh;
     background-color: white;
 }
