@@ -36,7 +36,6 @@ navSlide();
 
 //Scroll Reveal
  window.sr = ScrollReveal();
-var x = window.matchMedia('(max-width: 450px');
 sr.reveal('.animate-left', {
     origin: 'left',
     duration: 1000,
