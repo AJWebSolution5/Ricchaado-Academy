@@ -1051,7 +1051,7 @@ footer.container {
         background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.2), rgba(255,255,255,0.8));
         border-radius: 0px;
         border: 0px solid rgba(255, 255, 255, 0.6);
-        margin-bottom: 80px;
+        
     }
 
     
@@ -1080,6 +1080,7 @@ footer.container {
         width: 50%;
         margin-bottom: 80px;
     }
+    
     .cta {
         text-align: center;
         margin-top: 150px;
@@ -1191,10 +1192,13 @@ footer.container {
     }
     .testimonial-title {
         text-align: center;
+        font-size: 22px;
     }
-    .testimonial img {
+    .testimonial img:first-child {
         text-align: center;
+        width: 70%;
     }
+   
     .footer-links ul li a{
         font-size: 10px;
     }
@@ -1233,7 +1237,4 @@ footer.container {
         margin-left: 30px;
         
     }
-}
-@media only screen and (min-width: 300px) {
-   
 }
