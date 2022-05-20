@@ -305,6 +305,9 @@ h1.tagline {
     top: 0;
     right: 0;
 }
+.sakura-cta {
+    display: none;
+}
 .value .container {
     width: 80%;
     margin: 0px auto;
@@ -1249,6 +1252,9 @@ footer.container {
         right: 30px;
         top: 0;
         height: 50%;
+        display: inherit;
+    }
+    .sakura-cta {
         display: inherit;
     }
 }
