@@ -1083,6 +1083,9 @@ footer.container {
         width: 50%;
         margin-bottom: 80px;
     }
+    .testimonial p{
+        font-size: 14px;
+    }
     
     .cta {
         text-align: center;

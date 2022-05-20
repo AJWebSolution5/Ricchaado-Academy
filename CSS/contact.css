@@ -2,8 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
     text-align: left;
+}
+.container {
+    width: 100%;
 }
 
 .input-group label{
@@ -49,14 +52,20 @@
 @media only screen and (max-width: 900px) {
     
     .testimonials {
-        padding-top: 80px;
+        margin-bottom: 50px;
         text-align: center;
+    }
+    .testimonial p{
+        font-size: 14px;
     }
     .contact-content h1 {
         font-size: 28px;
     }
     .contact-content p {
         font-size: 16px;
+    }
+    .final-cta{
+        padding-bottom: 100px;
     }
 
 }
