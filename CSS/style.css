@@ -676,6 +676,8 @@ h1.tagline {
 }
 .footer {
     background-color: white;
+        padding: 0px 0px 50px 0px;
+        
 }
 
 footer.container {
@@ -683,6 +685,7 @@ footer.container {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 .social {
    text-align: center;
