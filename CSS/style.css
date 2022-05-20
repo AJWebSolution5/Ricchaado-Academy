@@ -634,6 +634,9 @@ h1.tagline {
     left: 0;
     transform: translateY(-100px);
 }
+.mobile-hiragana {
+    display: none;
+}
 
 
 @keyframes richPopUp{
@@ -1230,7 +1233,7 @@ footer.container {
     .social {
         text-align: center;
         padding: 0px 0px 0px 0px;
-        
+        margin-bottom: 10px;
      }
      
      .social img {
@@ -1240,5 +1243,12 @@ footer.container {
     .footer-links li {
         margin-left: 30px;
         
+    }
+    .mobile-hiragana {
+        position: absolute;
+        right: 30px;
+        top: 0;
+        height: 50%;
+        display: inherit;
     }
 }
