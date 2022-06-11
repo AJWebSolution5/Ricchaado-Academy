@@ -134,10 +134,21 @@
    
 }
 
-@media only screen and (min-width: 370px) {
+@media only screen and (max-width: 900px) {
 
     .about-section .container{
         position: relative;
+    }
+    .ricchaado-section {
+        padding-bottom: 0px;
+    }
+    .about-content:first-child {
+        order: 2;
+    }
+    .ricchaado-img {
+        order: 0;
+        margin-top: 0px;
+        margin-bottom: 80px;
     }
     #japan-fan {
         transform: rotate(90deg);

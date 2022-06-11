@@ -5,9 +5,7 @@
     padding: 2rem 3rem;
     text-align: left;
 }
-.container {
-    width: 100%;
-}
+
 
 .input-group label{
     font-size: 15px;
@@ -66,6 +64,9 @@
     }
     .final-cta{
         padding-bottom: 100px;
+    }
+    .container {
+        width: 100%;
     }
 
 }

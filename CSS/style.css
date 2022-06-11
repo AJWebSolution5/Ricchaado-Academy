@@ -33,7 +33,9 @@ nav {
     color: #B52323;
     z-index: 5000;
 }
-
+.logo img {
+    width: 80px;
+}
 .hide-mobile {
     display: none;
 }
@@ -50,10 +52,6 @@ nav {
     transition: all 0.3s ease;
 }
 
-.logo {
-    font-size: 22px;
-
-}
 
 nav ul {
     display: flex;
@@ -674,10 +672,10 @@ h1.tagline {
     }
 
 }
-.footer {
+
+footer {
+    padding: 50px 0px 50px 0px;
     background-color: white;
-        padding: 0px 0px 50px 0px;
-        
 }
 
 footer.container {
@@ -742,6 +740,7 @@ footer.container {
         justify-content: space-around;
         align-items: center;
         width: 80%;
+        margin-right: auto;
         height: 7vh;
         padding-top: 0px;
         transform: translateX(0%);
@@ -749,7 +748,7 @@ footer.container {
       }
     
     .logo img {
-        width: 30px;
+        width: 80px;
     }
 
       
@@ -1112,10 +1111,7 @@ footer.container {
         transform: rotate(90deg);
     }
     
-    footer {
-        padding: 50px 0px 50px 0px;
-        background-color: white;
-    }
+    
     
     footer.container {
         display: flex;
